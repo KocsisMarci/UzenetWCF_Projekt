@@ -75,7 +75,7 @@ namespace UzenetWCF.Services
             conn.Close();
 
             return uzenetek; 
-            //Itt egy throw new NotImplementedException() bent maradt, ezt utólag vettem észre egyébként a program működését nem gátolta.
+            //Itt egy throw new NotImplementedException(); bent maradt, ezt utólag vettem észre egyébként a program működését nem gátolta.
         }
 
         public string Update(Uzenet uzenet)
