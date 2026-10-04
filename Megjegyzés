@@ -1,0 +1,14 @@
+Bár felesleges most tábla ős Osztályt csinálni mert csak egy tábla van, de így néznének ki (A konstruktor mindkét osztálynál opcionális):
+
+public class Tabla{
+  public int Id{get;set;}
+    public Tabla(int id){
+      this.Id=id;
+    }
+}
+
+És akkor az Uzenet tábla öröklődne
+public class Uzenet:Tabla{
+  public Uzenet(int id, többi adat) :base(id){}
+
+};
